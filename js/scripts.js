@@ -3,7 +3,8 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic3BtNTA3IiwiYSI6ImNrNmxmYnZrMTAzNzAzaHBodTRmd
 
 
 var initialCenterPoint = [-83.664, 43.632]
-var initialZoom = 10.67
+var initialZoom = 5.99
+
 
 
 
