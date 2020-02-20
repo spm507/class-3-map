@@ -10,7 +10,7 @@ var initialZoom = 5.99
 
 var initOptions = {
   container: 'map-container',
-  style: 'mapbox://styles/mapbox/light-v10', // use this basemap
+  style: 'mapbox://styles/mapbox/streets-v11', // use this basemap
   center: initialCenterPoint,
   zoom: initialZoom,
 }
