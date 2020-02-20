@@ -223,4 +223,12 @@ var barData = [
     "city": "Brooklyn",
     "region": "New York"
   }
+  {
+    "name": "Kristy",
+    "dope_bar": "Willy T's",
+    "longitude": -64.621047317,
+    "latitude": 18.3141773,
+    "city": "The Bight Bay",
+    "region": "British Virgin Islands"
+  }
 ]
