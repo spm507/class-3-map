@@ -70,7 +70,7 @@ $('#shymkent').on('click', function() {
 })
 
 $('#chengdu').on('click', function() {
-  var chengduLngLat = [103.7953416101, 30.6588188]
+  var chengduLngLat = [104.06141871125, 30.6535874]
 
   map.flyTo({
     center: chengduLngLat,
