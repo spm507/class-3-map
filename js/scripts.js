@@ -44,7 +44,7 @@ barData.forEach(function(barEntry) {
 $('#europe').on('click', function() {
   map.flyTo({
     center: [-0.8459507425, 47.5673373],
-    zoom: initialZoom
+    zoom: 3.65
   })
 })
 
