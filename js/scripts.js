@@ -10,7 +10,7 @@ var initialZoom = 5.99
 
 var initOptions = {
   container: 'map-container',
-  style: 'mapbox://styles/mapbox/dark-v10', // use this basemap
+  style: 'mapbox://styles/mapbox/light-v10', // use this basemap
   center: initialCenterPoint,
   zoom: initialZoom,
 }
@@ -25,7 +25,7 @@ map.addControl(new mapboxgl.NavigationControl());
  new mapboxgl.Marker()
    .setLngLat([-85.676008517,42.9584716])
    .setPopup(new mapboxgl.Popup({ offset: 25 })
-    .setHTML('I am drinking an All Day IPA at Founders'))
+    .setHTML('I am drinking an Reds Rye IPA at Founders.'))
    .addTo(map);
 
 
@@ -76,5 +76,12 @@ $('#chengdu').on('click', function() {
     center: chengduLngLat,
     zoom: 11.48
 
+  })
+})
+
+$('#michigan').on('click', function() {
+  map.flyTo({
+    center: initialCenterPoint,
+    zoom: initialZoom
   })
 })
