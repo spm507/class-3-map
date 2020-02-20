@@ -54,7 +54,8 @@ $('#buenosaires').on('click', function() {
 
   map.flyTo({
     center: buenosairesLngLat,
-    zoom: initialZoom
+    zoom: 11.48
+
   })
 })
 
@@ -63,7 +64,8 @@ $('#shymkent').on('click', function() {
 
   map.flyTo({
     center: shymkentLngLat,
-    zoom: initialZoom
+    zoom: 11.48
+
   })
 })
 
@@ -72,6 +74,7 @@ $('#chengdu').on('click', function() {
 
   map.flyTo({
     center: chengduLngLat,
-    zoom: initialZoom
+    zoom: 11.48
+
   })
 })
