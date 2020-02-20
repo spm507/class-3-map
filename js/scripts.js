@@ -1,42 +1,40 @@
 // this is my mapboxGL token
-// the base style includes data provided by mapbox, this links the requests to my account
-mapboxgl.accessToken = 'pk.eyJ1IjoiY3dob25nLXFyaSIsImEiOiJjazZncWRkZGowb3kyM25vZXkwbms2cW0xIn0.lbwola6y7YDdaKLMdjif1g';
-
-// we want to return to this point and zoom level after the user interacts
-// with the map, so store them in variables
-var initialCenterPoint = [-73.987, 40.735]
-var initialZoom = 10.67
+mapboxgl.accessToken = 'pk.eyJ1Ijoic3BtNTA3IiwiYSI6ImNrNmxmYnZrMTAzNzAzaHBodTRmd2hpZm0ifQ.Tf4_3bYwjcuHv39tq01CWQ';
 
 
-// create an object to hold the initialization options for a mapboxGL map
+var initialCenterPoint = [-83.664, 43.632]
+var initialZoom = 5.84
+
+
+
 var initOptions = {
-  container: 'map-container', // put the map in this container
+  container: 'map-container',
   style: 'mapbox://styles/mapbox/dark-v10', // use this basemap
-  center: initialCenterPoint, // initial view center
-  zoom: initialZoom, // initial view zoom level (0-18)
+  center: initialCenterPoint,
+  zoom: initialZoom,
 }
 
-// create the new map
+
 var map = new mapboxgl.Map(initOptions);
 
-// add zoom and rotation controls to the map.
+
 map.addControl(new mapboxgl.NavigationControl());
 
-// make a single marker in central park
+
  new mapboxgl.Marker()
-   .setLngLat([-73.974087,40.770718])
-   .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    .setHTML('I am in Central Park'))
+   .setLngLat([-85.676008517,42.9584716])
+   .setPopup(new mapboxgl.Popup({ offset: 25 })
+    .setHTML('I am drinking an All Day IPA at Founders'))
    .addTo(map);
 
 
-// iterate over each object in studentData
-studentData.forEach(function(studentEntry) {
-  // for each object in the studentData, add a marker to the map with a popup
+
+barData.forEach(function(barEntry) {
+
   new mapboxgl.Marker()
-    .setLngLat([studentEntry.longitude, studentEntry.latitude])
-    .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-     .setHTML(`${studentEntry.name} thinks ${studentEntry.pizza_place} is the best pizza in the world!`))
+    .setLngLat([barEntry.longitude, barEntry.latitude])
+    .setPopup(new mapboxgl.Popup({ offset: 25 })
+     .setHTML(`${barEntry.name} enjoyed getting a buzz on at ${barEntry.dope_bar}`))
     .addTo(map);
 })
 
