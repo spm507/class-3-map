@@ -80,6 +80,16 @@ $('#chengdu').on('click', function() {
   })
 })
 
+$('#nyc').on('click', function() {
+  var nycLngLat = [-73.9568597,12, 40.7507233]
+
+  map.flyTo({
+    center: nycLngLat,
+    zoom: 11.48
+
+  })
+})
+
 $('#michigan').on('click', function() {
   map.flyTo({
     center: initialCenterPoint,
