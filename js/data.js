@@ -5,26 +5,23 @@ var barData = [
     "longitude": -97.1269078,
     "latitude": 31.5402436,
     "city": "Waco",
-    "state_province": "Texas",
-    "country": "United States"
+    "region": "Texas"
   },
   {
-    "name": "I",
+    "name": "Sean",
     "dope_bar": "Nevermind",
     "longitude": 2.163454615,
     "latitude": 41.3840971,
     "city": "Barcelona",
-    "state_province": "Barcelona",
-    "country": "Spain"
+    "region": "Spain"
   },
   {
     "name": "Jack",
     "dope_bar": "Woody's Oasis",
-    "longitude": -84.481998,
-    "latitude": 42.734909,
+    "longitude": -84.48422258,
+    "latitude": 42.7349385,
     "city": "East Lansing",
-    "state_province": "Michigan",
-    "country": "United States"
+    "region": "Michigan"
   },
   {
     "name": "Charlie",
@@ -32,8 +29,7 @@ var barData = [
     "longitude": -6.266360367,
     "latitude": 53.3454785,
     "city": "Dublin",
-    "state_province": "Leinster",
-    "country": "Ireland"
+    "region": "Ireland"
   },
   {
     "name": "Drew",
@@ -41,8 +37,7 @@ var barData = [
     "longitude": 0.12531959,
     "latitude": 52.2073277,
     "city": "Cambridge",
-    "state_province": "Cambridgeshire",
-    "country": "England"
+    "region": "England"
   },
   {
     "name": "Issac",
@@ -50,8 +45,7 @@ var barData = [
     "longitude": -87.89790351,
     "latitude": 43.0561775,
     "city": "Milwaukee",
-    "state_province": "Wisconsin",
-    "country": "United States"
+    "region": "Wisconsin"
   },
   {
     "name": "Joe",
@@ -59,8 +53,7 @@ var barData = [
     "longitude": -85.63443868,
     "latitude": 42.9553502,
     "city": "Grand Rapids",
-    "state_province": "Michigan",
-    "country": "United States"
+    "region": "Michigan"
   },
   {
     "name": "Sean R.",
@@ -68,8 +61,7 @@ var barData = [
     "longitude": -87.62492182,
     "latitude": 41.881618,
     "city": "Chicago",
-    "state_province": "Illinois",
-    "country": "United States"
+    "region": "Illinois"
   },
   {
     "name": "Patrick",
@@ -77,8 +69,7 @@ var barData = [
     "longitude": -85.58126772,
     "latitude": 42.2947449,
     "city": "Kalamazoo",
-    "state_province": "Michigan",
-    "country": "United States"
+    "region": "Michigan"
   },
   {
     "name": "Michael",
@@ -86,8 +77,7 @@ var barData = [
     "longitude": -85.69906578,
     "latitude": 42.9635413,
     "city": "Grand Rapids",
-    "state_province": "Michigan",
-    "country": "United States"
+    "region": "Michigan"
   },
   {
     "name": "Spencer",
@@ -95,8 +85,7 @@ var barData = [
     "longitude": -111.9001517,
     "latitude": 40.7856613,
     "city": "Salt Lake City",
-    "state_province": "Utah",
-    "country": "United States"
+    "region": "Utah"
   },
   {
     "name": "Caleb",
@@ -104,8 +93,7 @@ var barData = [
     "longitude": -83.04584192,
     "latitude": 42.3312565,
     "city": "Detroit",
-    "state_province": "Michigan",
-    "country": "United States"
+    "region": "Michigan"
   },
   {
     "name": "Sara",
@@ -113,8 +101,7 @@ var barData = [
     "longitude": 13.46299117,
     "latitude": 52.4974459,
     "city": "Berlin",
-    "state_province": "Berlin",
-    "country": "Germany"
+    "region": "Germany"
   },
   {
     "name": "Tessa",
@@ -122,8 +109,7 @@ var barData = [
     "longitude": -73.99361092,
     "latitude": 40.7153376,
     "city": "New York",
-    "state_province": "New York",
-    "country": "United States"
+    "region": "New York"
   },
   {
     "name": "Brittany",
@@ -131,8 +117,7 @@ var barData = [
     "longitude": -6.268900117,
     "latitude": 53.348642,
     "city": "Dublin",
-    "state_province": "Leinster",
-    "country": "Ireland"
+    "region": "Ireland"
   },
   {
     "name": "Koloina",
@@ -140,8 +125,7 @@ var barData = [
     "longitude": -73.95016682,
     "latitude": 40.8100202,
     "city": "New York",
-    "state_province": "New York",
-    "country": "United States"
+    "region": "New York"
   },
   {
     "name": "Miriam",
@@ -149,8 +133,7 @@ var barData = [
     "longitude": -123.0665549,
     "latitude": 49.283834,
     "city": "Vancouver",
-    "state_province": "British Columbia",
-    "country": "Canada"
+    "region": "Canada"
   },
   {
     "name": "Jing",
@@ -158,8 +141,7 @@ var barData = [
     "longitude": 104.0831034,
     "latitude": 30.653164,
     "city": "Chengdu",
-    "state_province": "Sichuan",
-    "country": "China"
+    "region": "China"
   },
   {
     "name": "Shelby",
@@ -167,8 +149,7 @@ var barData = [
     "longitude": -86.35022962,
     "latitude": 43.4098909,
     "city": "Montague",
-    "state_province": "Michigan",
-    "country": "United States"
+    "region": "Michigan"
   },
   {
     "name": "Alejandro",
@@ -176,8 +157,7 @@ var barData = [
     "longitude": -99.19841182,
     "latitude": 19.4306852,
     "city": "Mexico City",
-    "state_province": "Mexico City",
-    "country": "Mexico"
+    "region": "Mexico"
   },
   {
     "name": "Catalina",
@@ -185,8 +165,7 @@ var barData = [
     "longitude": -58.38190682,
     "latitude": -34.5915325,
     "city": "Buenos Aires",
-    "state_province": "Buenos Aires",
-    "country": "Argentina"
+    "region": "Argentina"
   },
   {
     "name": "Gretha",
@@ -194,8 +173,7 @@ var barData = [
     "longitude": -73.93688182,
     "latitude": 40.6834003,
     "city": "Brooklyn",
-    "state_province": "New York",
-    "country": "United States"
+    "region": "New York"
   },
   {
     "name": "Doszhan",
@@ -203,8 +181,7 @@ var barData = [
     "longitude": 69.58952972,
     "latitude": 42.3251091,
     "city": "Shymkent",
-    "state_province": "Shymkent",
-    "country": "Kazakhstan"
+    "region": "Kazakhstan"
   },
   {
     "name": "Yiyong",
@@ -212,8 +189,7 @@ var barData = [
     "longitude": -123.0809942,
     "latitude": 44.0453,
     "city": "Eugene",
-    "state_province": "Oregon",
-    "country": "United States"
+    "region": "Oregon"
   },
   {
     "name": "Alexis",
@@ -221,8 +197,7 @@ var barData = [
     "longitude": -73.95737762,
     "latitude": 40.6738198,
     "city": "Brooklyn",
-    "state_province": "New York",
-    "country": "United States"
+    "region": "New York"
   },
   {
     "name": "Tom",
@@ -230,8 +205,7 @@ var barData = [
     "longitude": -78.78448842,
     "latitude": 42.9504944,
     "city": "Buffalo",
-    "state_province": "New York",
-    "country": "United States"
+    "region": "New York"
   },
   {
     "name": "Deanne",
@@ -239,16 +213,14 @@ var barData = [
     "longitude": -90.07022312,
     "latitude": 29.954163,
     "city": "New Orleans",
-    "state_province": "Louisiana",
-    "country": "United States"
+    "region": "Louisiana"
   },
   {
     "name": "Ryan",
-    "dope_bar": "Barboncino Pizza",
+    "dope_bar": "Barboncino",
     "longitude": -73.95831992,
     "latitude": 40.6721646,
     "city": "Brooklyn",
-    "state_province": "New York",
-    "country": "United States"
+    "region": "New York"
   }
 ]
