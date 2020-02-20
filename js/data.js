@@ -222,7 +222,7 @@ var barData = [
     "latitude": 40.6721646,
     "city": "Brooklyn",
     "region": "New York"
-  }
+  },
   {
     "name": "Kristy",
     "dope_bar": "Willy T's",
