@@ -39,6 +39,12 @@ barData.forEach(function(barEntry) {
     .addTo(map);
 })
 
+function flyToBar(barEntry) {
+    map.flyTo({
+        center: [barEntry.longitude, barEntry.latitude],
+        zoom: 14
+    });
+
 // event listeners for the fly to buttons
 
 $('#europe').on('click', function() {
