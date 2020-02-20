@@ -40,35 +40,37 @@ barData.forEach(function(barEntry) {
 
 // event listeners for the fly to buttons
 
-$('#china').on('click', function() {
+$('#europe').on('click', function() {
   map.flyTo({
-    center: [112.556005, 37.818758],
+    center: [-0.8459507425, 47.5673373],
     zoom: initialZoom
   })
 })
 
-$('#michigan').on('click', function() {
+$('#buenosaires').on('click', function() {
 
-  var michiganLngLat = [-83.10538, 42.50448]
+  var buenosairesLngLat = [-58.57338611, -34.6154611]
 
   map.flyTo({
-    center: michiganLngLat,
+    center: buenosairesLngLat,
     zoom: initialZoom
   })
 })
 
-$('#colombia').on('click', function() {
-  var colombiaLngLat = [-73.997208, 0.721615]
+$('#shymkent').on('click', function() {
+  var shymkentLngLat = [69.449718411, 42.3419889]
 
   map.flyTo({
-    center: colombiaLngLat,
+    center: shymkentLngLat,
     zoom: initialZoom
   })
 })
 
-$('#nyc').on('click', function() {
+$('#chengdu').on('click', function() {
+  var chengduLngLat = [103.7953416101, 30.6588188]
+
   map.flyTo({
-    center: initialCenterPoint,
+    center: chengduLngLat,
     zoom: initialZoom
   })
 })
