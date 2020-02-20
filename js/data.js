@@ -8,7 +8,7 @@ var barData = [
     "region": "Texas"
   },
   {
-    "name": "Sean",
+    "name": "I",
     "dope_bar": "Nevermind",
     "longitude": 2.163454615,
     "latitude": 41.3840971,
