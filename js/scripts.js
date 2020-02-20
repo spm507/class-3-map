@@ -10,7 +10,7 @@ var initialZoom = 5.99
 
 var initOptions = {
   container: 'map-container',
-  style: 'mapbox://styles/mapbox/streets-v11', // use this basemap
+  style: 'mapbox://styles/mapbox/satellite-v9', // use this basemap
   center: initialCenterPoint,
   zoom: initialZoom,
 }
@@ -39,11 +39,7 @@ barData.forEach(function(barEntry) {
     .addTo(map);
 })
 
-function flyToBar(barEntry) {
-    map.flyTo({
-        center: [barEntry.longitude, barEntry.latitude],
-        zoom: 14
-    });
+
 
 // event listeners for the fly to buttons
 
