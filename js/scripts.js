@@ -35,7 +35,7 @@ barData.forEach(function(barEntry) {
   new mapboxgl.Marker()
     .setLngLat([barEntry.longitude, barEntry.latitude])
     .setPopup(new mapboxgl.Popup({ offset: 25 })
-     .setHTML(`${barEntry.name} enjoyed getting a buzz on at ${barEntry.dope_bar} in ${barEntry.city}, ${baryEntry.country}!`))
+     .setHTML(`${barEntry.name} enjoyed getting a buzz on at ${barEntry.dope_bar} in ${barEntry.city}, ${barEntry.country}!`))
     .addTo(map);
 })
 
