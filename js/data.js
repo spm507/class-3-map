@@ -20,8 +20,8 @@ var barData = [
   {
     "name": "Jack",
     "dope_bar": "Woody's Oasis",
-    "longitude": -84.48422258,
-    "latitude": 42.7349385,
+    "longitude": -84.481998,
+    "latitude": 42.734909,
     "city": "East Lansing",
     "state_province": "Michigan",
     "country": "United States"
