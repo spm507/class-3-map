@@ -12,7 +12,7 @@ var initOptions = {
   container: 'map-container',
   style: 'mapbox://styles/mapbox/dark-v10', // use this basemap
   center: initialCenterPoint,
-  zoom: initialZoom,
+  zoom: 11.48,
 }
 
 
