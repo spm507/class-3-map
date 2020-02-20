@@ -39,23 +39,6 @@ barData.forEach(function(barEntry) {
     .addTo(map);
 })
 
-map.addLayer({
-'id': 'symbols',
-'type': 'symbol',
-'source': 'barData',
-'layout': {
-'icon-image': 'https://image.flaticon.com/icons/svg/931/931949.svg'
-}
-});
-
-// Center the map on the coordinates of any clicked symbol from the 'symbols' layer.
-map.on('click', 'symbols', function(e) {
-map.flyTo({ center: e.features[0].geometry.coordinates });
-});
-
-
-
-
 
 // event listeners for the fly to buttons
 
